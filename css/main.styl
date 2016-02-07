@@ -638,9 +638,37 @@ aside
       text-decoration none
 
 
+.blog
+  article
+    padding 60px 0
+    border-bottom 1px solid #e5eef0
+    &:first-child
+      padding-top 0
+    &:nth-last-child(2)
+      border-bottom 0
 
+audio
+  width 100%
 
+.pagination>li>a, .pagination>li>span
+  background-color #29c2e1
+  color #fff
+  margin 0 3px
+  border none
+  padding 11px 17px
+  border-top-left-radius 0 !important
+  border-bottom-left-radius 0 !important
+  border-top-right-radius 0 !important
+  border-bottom-right-radius 0 !important
+  margin-bottom 5px
 
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover
+  background-color #f7941d
+  border-color #f7941d
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover
+  color #fff
+  background-color #f7941d
 
 @media (min-width: 768px) {
   .container {
